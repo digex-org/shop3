@@ -3,7 +3,7 @@ export function useProduct() {
         products: [
             {
                 id: 1,
-                image: '/images/products/product.png',
+                image: '/images/products/prod1.png',
                 description: 'A stylish wall clock for your living room.',
                 images: ['/images/products/product.png', '/images/products/product.png', '/images/products/product.png'],
                 title: "STOCKING STUFFERS",
@@ -19,7 +19,7 @@ export function useProduct() {
             },
             {
                 id: 2,
-                image: '/images/products/product.png',
+                image: '/images/products/prod2.png',
                 description: 'A stylish wall clock for your living room.',
                 images: ['/images/products/product.png', '/images/products/product.png', '/images/products/product.png', '/images/products/product.png', '/images/products/product.png', '/images/products/product.png', '/images/products/product.png', '/images/products/product.png', '/images/products/product.png', '/images/products/product.png', '/images/products/product.png'],
                 title: "STOCKING STUFFERS",
@@ -35,7 +35,7 @@ export function useProduct() {
             },
             {
                 id: 3,
-                image: '/images/products/product.png',
+                image: '/images/products/prod3.png',
                 description: 'A stylish wall clock for your living room.',
                 images: ['/images/products/product.png', '/images/products/product.png', '/images/products/product.png'],
                 title: "STOCKING STUFFERS",
@@ -51,7 +51,7 @@ export function useProduct() {
             },
             {
                 id: 4,
-                image: '/images/products/product.png',
+                image: '/images/products/prod4.png',
                 description: 'A stylish wall clock for your living room.',
                 images: ['/images/products/product.png', '/images/products/product.png', '/images/products/product.png'],
                 title: "STOCKING STUFFERS",
@@ -64,7 +64,7 @@ export function useProduct() {
             },
             {
                 id: 5,
-                image: '/images/products/product.png',
+                image: '/images/products/prod1.png',
                 description: 'A stylish wall clock for your living room.',
                 images: ['/images/products/product.png', '/images/products/product.png', '/images/products/product.png'],
                 title: "STOCKING STUFFERS",
@@ -77,7 +77,7 @@ export function useProduct() {
             },
             {
                 id: 6,
-                image: '/images/products/product.png',
+                image: '/images/products/prod3.png',
                 description: 'A stylish wall clock for your living room.',
                 images: ['/images/products/product.png', '/images/products/product.png', '/images/products/product.png'],
                 title: "STOCKING STUFFERS",

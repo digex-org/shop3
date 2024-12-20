@@ -39,7 +39,7 @@
 </template>
 
 <script setup>
-import { useMenus } from "@/composables/useMenus"; // Adjust path if necessary
+import { useMenus } from "@/composables/useMenus";
 
 // Fetch menus from the useMenus hook
 const { menus } = useMenus();

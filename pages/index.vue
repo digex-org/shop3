@@ -1,8 +1,17 @@
 <template>
   <div>
     <SliderSection :slides="slides" />
-    <div class="container m-auto max-w-7xl">
+    <div class="container m-auto max-w-7xl px-5">
       <CategoriesSection />
+      <WelcomeSection />
+      <div class="flex justify-between flex-col lg:flex-row items-center lg:items-start">
+        <div class="flex flex-col w-1/4 pt-5 lg:items-start items-center mb-5">
+          <HeadingSection class="mb-8 lg:!mb-14 text-center lg:text-start" :header="'New In'" :description="'Shop the latest arrivals!'"/>
+          <a href="#" class="py-2.5 px-7 text-white bg-[#6070D5] w-fit rounded-full">View all</a>
+        </div>
+        <NewProducts class="max-w-4xl pt-0" :limit="4"/>
+      </div>
+      <GallerySection />
     </div>
 <!--    <SliderSection class="py-7" :items="videoSlides" :settings="videoSettings" />-->
 <!--    <div class="container mx-auto px-4">-->
@@ -27,10 +36,10 @@ const { categories } = useCategory();
 const { products } = useProduct();
 const slides = [
   {
-    backgroundImage: "/images/backgrounds/banner2.png",
+    backgroundImage: "/images/backgrounds/banner4.png",
   },
   {
-    backgroundImage: "/images/backgrounds/banner.png",
+    backgroundImage: "/images/backgrounds/banner2.png",
   },
   {
     backgroundImage: "/images/backgrounds/banner.png",
