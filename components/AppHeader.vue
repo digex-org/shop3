@@ -4,10 +4,11 @@
     <div class="w-full bg-[#EFEAFF] h-9"></div>
 
     <!-- Logo Section -->
-    <div class="container mx-auto flex justify-center items-center py-4 bg-white">
-      <img src="/logo.png" alt="logo" class="h-10"> <!-- Adjust height as needed -->
-    </div>
-
+    <a href="/">
+      <div class="container mx-auto flex justify-center items-center py-4 bg-white">
+        <img src="/logo.png" alt="logo" class="h-10"> <!-- Adjust height as needed -->
+      </div>
+    </a>
     <!-- Navigation -->
     <nav class="w-full bg-white shadow-sm flex justify-center py-3 text-sm font-medium"
          @mouseleave="closeMenu"
@@ -31,7 +32,7 @@
           <!-- Dropdown Menu -->
           <div
               v-if="activeMenu === menu.name && menu.subMenu && menu.subMenu.length > 0"
-              class="absolute left-0 hidden group-hover:block bg-[#EFEAFF] w-[400px] p-6 shadow-lg z-10 top-6 transition-all"
+              class="absolute left-0 hidden group-hover:block bg-[#EFEAFF] w-[400px] p-6 shadow-lg z-50 top-6 transition-all"
           >
             <div v-for="sub in menu.subMenu" :key="sub.name" class="mb-4 flex items-center">
               <img :src="sub.image" alt="sub.name" class="w-10 h-10 mr-2 hidden md:inline rounded-full border-[#DCD1FF] border-4" />

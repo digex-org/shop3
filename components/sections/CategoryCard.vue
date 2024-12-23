@@ -1,12 +1,12 @@
 <template>
-<!--  <NuxtLink :to="{ name: 'category-category', params: { category: encodeURIComponent(category.name) } }">-->
+  <NuxtLink :to="{ name: 'category-category', params: { category: encodeURIComponent(category.name) } }">
     <div class="category-card relative text-center p-1.5">
       <div class="relative">
         <img :src="category.image" :alt="category.name" class="category-image w-full h-auto max-h-64 object-cover mb-5" loading="lazy" />
         <h3 class="absolute bottom-4 left-1/3 font-bold text-[#6070D5] p-3 rounded-full bg-white text-sm">KNOW MORE</h3>
       </div>
     </div>
-<!--  </NuxtLink>-->
+  </NuxtLink>
 </template>
 
 <script setup>
