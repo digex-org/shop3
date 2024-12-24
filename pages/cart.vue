@@ -1,5 +1,5 @@
 <template>
-<!--  <CartSection />-->
+  <CartSection />
 </template>
 
 <style scoped>

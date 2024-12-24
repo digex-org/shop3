@@ -1,5 +1,5 @@
 <template>
-<!--  <CheckoutSection />-->
+  <CheckoutSection />
 </template>
 
 <script setup>
